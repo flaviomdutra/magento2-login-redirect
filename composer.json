@@ -1,0 +1,27 @@
+{
+  "name": "dutra/loginredirect",
+  "description": "Magento 2 Redirect To Checkout After Signup and Signin Extension",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-2-Clause"
+  ],
+  "authors": [
+    {
+      "name": "Flavio Dutra",
+      "email": "flaviomdutra@outlook.com",
+      "homepage": "https://github.com/flaviomdutra",
+      "role": "Software Engineer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dutra\\RedirectCheckout\\": ""
+    }
+  }
+}
